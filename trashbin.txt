@@ -1,3 +1,5 @@
+alt text
+ 
 *Include screenshots of the app UI here*
  
 View style={styles.themeContainer}>
