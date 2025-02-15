@@ -1,0 +1,60 @@
+*Include screenshots of the app UI here*
+ 
+View style={styles.themeContainer}>
+        <Text>Dark Mode</Text>
+        <Switch
+          value={isDarkMode}
+          onValueChange={setIsDarkMode}
+        />
+      </View>
+ 
+import PhoneInput from 'react-native-phone-number-input';
+ 
+      <PhoneInput
+        defaultValue={phoneNumber}
+        defaultCode="ZA"
+        layout="first"
+        onChangeText={setPhoneNumber}
+        withDarkTheme={isDarkMode}
+        withShadow
+        autoFocus
+      />
+ 
+{/* <Stack.Screen
+          name="AuthScreen"
+          component={AuthScreen}
+          options={{ title: "Auth" }}
+        /> */}
+ 
+ const styles = StyleSheet.create({
+ 
+ const styles = StyleSheet.create({
+ 
+Screen
+ 
+RegisterScreen
+ 
+export default function App() {
+  return (
+    <AuthProvider>
+      <NavigationContainer>
+        <AppNavigator />
+      </NavigationContainer>
+    </AuthProvider>
+  );
+}
+ 
+RecordingScreen
+ 
+Screen
+ 
+creen
+ 
+AuthContext
+ 
+LoginScreen
+ 
+RegisterScreen
+ 
+RecordingScreen
+ 
